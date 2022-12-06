@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+.container {
+ 
+    padding-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: auto;
+}
+/* start media queries */
+/* small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* larg */
+@media (min-width: 992px) {
+    .container {
+        width:970px; 
+    }
+}
+/* x-large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+/* end media queries */
+
+
+/* start header */
+.header {
+    text-align: center;
+    padding: 7px 0 ;
+}
+.header h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.header p {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+/* end header */
+
+/* start input */
+input {
+    width: 100%;
+    padding: 5px;
+    background-color: #111;
+    color: white;
+    outline: none;
+    margin-bottom: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+input:focus {
+    background: #000;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.price input {
+    width: 20%;
+    margin-right: 20px;
+}
+#total {
+    background-color: red;
+    width: 20%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+#total::before {
+    content: "Total : ";
+    color: white;
+}
+/* end input */
+
+/* start button */
+button {
+    width: 100%;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    height: 30px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    transform: 0.3s;
+    -webkit-transform: 0.3s;
+    -moz-transform: 0.3s;
+    -ms-transform: 0.3s;
+    -o-transform: 0.3s;
+}
+button:hover {
+    background-color: rgb(85, 85, 167);
+    letter-spacing: 1.5px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.srchbtn button {
+    width: 40%;
+}
+.srchbtn {
+    display: flex;
+    justify-content: space-between;
+}
+/* end button */
+/* end button */
+/* start table */
+table {
+    width: 100%;
+    text-align: center;
+     margin-top: 15px;
+}
+table th {
+    text-transform: uppercase;
+}
+#deleteAll {
+    margin: 20px 0 ;
+}
+/*end table */
